@@ -1,0 +1,29 @@
+.skeleton {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-areas:
+      "navbar"
+      "router";
+  grid-template-rows: 5em 1fr;
+}
+
+.skeleton__navbar {
+  grid-area: navbar;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  padding: 0.25em 2em;
+  background: #9f3f3f;
+
+  gap: 4em;
+}
+
+.skeleton__router {
+  grid-area: router;
+
+  padding: 1em 2em;
+  background: #ffefef;
+}

@@ -1,0 +1,12 @@
+.skeleton__navbar__item {
+	color: #efffff;
+
+	&:hover {
+		color: #ffbfbf;
+	}
+
+	&.active {
+		font-weight: bold;
+		text-decoration: underline;
+	}
+}
